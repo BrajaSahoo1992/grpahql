@@ -1,0 +1,21 @@
+
+schema{
+query:Query
+}
+type query{
+bankAccount(id: String):BankAccount
+}
+
+type BankAccount{
+name:String!
+id:String!
+}
+
+type Address{
+city:String
+state:String
+country:String
+pin:String
+
+}
+

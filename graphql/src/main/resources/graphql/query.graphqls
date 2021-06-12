@@ -1,0 +1,11 @@
+
+
+type Query{
+bankAccount(id: String):BankAccount
+}
+
+type BankAccount{
+name:String!
+id:String!
+}
+
