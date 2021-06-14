@@ -17,19 +17,6 @@ public class GraphqlApplication {
 	}
 	
 	
-	/*
-	 * @Bean GraphQLSchema schema() {
-	 * 
-	 * return GraphQLSchema.newSchema() .query(GraphQLObjectType.newObject()
-	 * .name("Query")
-	 * 
-	 * .field(field -> field .name("bankAccount")
-	 * 
-	 * 
-	 * 
-	 * 
-	 * .type(Scalars.GraphQLString) .dataFetcher(environment -> "response") )
-	 * .build()) .build(); }
-	 */
+	
 
 }
